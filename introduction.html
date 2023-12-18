@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 1: Introduction to HTML5 and Basic Web Structure</title>
+    <link href="introduction.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="lesson1">
+        <div id="lesson1-content">
+            <h2>Introduction to HTML5 and Basic Web Structure</h2>
+            <p>Welcome to the first lesson of our responsive web design course! In this lesson, we will delve into the world of HTML5, exploring its key features and understanding the foundation of web page structure.</p>
+            <p>Key topics covered in this lesson:</p>
+            <ul>
+                <li>The structure of an HTML document</li>
+                <li>Using HTML tags and elements</li>
+                <li>Implementing HTML5 semantic elements</li>
+                <li>Forming the building blocks of a webpage</li>
+            </ul>
+            <p>By the end of this lesson, you will be able to create a well-structured HTML5 document and understand the role of different tags and elements in web development.</p>
+        </div>
+    </section>
+
+    <section id="quiz1">
+        <div id="quiz-content">
+            <h2>Quiz 1: HTML Basics</h2>
+            <p>Test your knowledge with this quiz on the basics of HTML:</p>
+            <form id="quizForm1">
+                <ol>
+                    <li>
+                        <p><strong>Question 1:</strong> What does HTML stand for?</p>
+                        <ul>
+                            <li><input type="radio" name="q1" value="a"> Hyper Trainer Marking Language</li>
+                            <li><input type="radio" name="q1" value="b"> Hyper Text Markup Language</li>
+                            <li><input type="radio" name="q1" value="c"> Hyperlinks and Text Markup Language</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><strong>Question 2:</strong> Which of these elements are all <strong>table</strong> elements?</p>
+                        <ul>
+                            <li><input type="radio" name="q2" value="a"> table, head, tfoot</li>
+                            <li><input type="radio" name="q2" value="b"> thead, body, tr</li>
+                            <li><input type="radio" name="q2" value="c"> table, tr, td</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><strong>Question 3:</strong> Which HTML element is used to define an internal style sheet?</p>
+                        <ul>
+                            <li><input type="radio" name="q3" value="a"> &lt;css&gt;</li>
+                            <li><input type="radio" name="q3" value="b"> &lt;style&gt;</li>
+                            <li><input type="radio" name="q3" value="c"> &lt;script&gt;</li>
+                        </ul>
+                    </li>
+                </ol>
+            </form>
+            <button onclick="calculateScore('quizForm1')">Submit Quiz 1</button>
+        </div>
+    </section>
+
+    <section id="quiz2">
+        <div id="quiz-content">
+            <h2>Quiz 2: HTML5 Semantic Elements</h2>
+            <p>Challenge yourself with this quiz on HTML5 semantic elements:</p>
+            <form id="quizForm2">
+                <ol>
+                    <li>
+                        <p><strong>Question 1:</strong> What is the purpose of the &lt;article&gt; element in HTML5?</p>
+                        <ul>
+                            <li><input type="radio" name="q1" value="a"> To define navigation links</li>
+                            <li><input type="radio" name="q1" value="b"> To define independent, self-contained content</li>
+                            <li><input type="radio" name="q1" value="c"> To define a footer for a document or section</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><strong>Question 2:</strong> Which element is used to specify a footer for a document or section?</p>
+                        <ul>
+                            <li><input type="radio" name="q2" value="a"> &lt;bottom&gt;</li>
+                            <li><input type="radio" name="q2" value="b"> &lt;footer&gt;</li>
+                            <li><input type="radio" name="q2" value="c"> &lt;section&gt;</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><strong>Question 3:</strong> Which element provides a way to group together related elements, and typically includes a heading?</p>
+                        <ul>
+                            <li><input type="radio" name="q3" value="a"> &lt;group&gt;</li>
+                            <li><input type="radio" name="q3" value="b"> &lt;fieldset&gt;</li>
+                            <li><input type="radio" name="q3" value="c"> &lt;section&gt;</li>
+                        </ul>
+                    </li>
+                </ol>
+            </form>
+            <button onclick="calculateScore('quizForm2')">Submit Quiz 2</button>
+        </div>
+    </section>
+
+    <section id="next-section">
+        <h2>Ready for the Next Lesson?</h2>
+        <p>Continue your learning journey by exploring the next lesson in our responsive web design course. Enroll now to unlock more exciting content and interactive lessons.</p>
+        <button onclick="navigatelesson('Previous')">Previous Lesson</button>
+        <button onclick="navigatelesson('Next')">Next Lesson</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Building a Responsive Website Course. All rights reserved.</p>
+    </footer>
+    
+    <script src="introduction.js"></script>
+
+</body>
+
+</html>

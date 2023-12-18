@@ -1,0 +1,161 @@
+
+.editor-container {
+    margin-bottom: 2em;
+}
+
+.code-input {
+    width: 100%;
+    height: 150px; /* Adjust as needed */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.code-output {
+    border: 1px solid #ccc;
+    padding: 1em;
+    background-color: #fff;
+    min-height: 100px; /* Adjust as needed */
+    width: 100%;
+}
+
+/* Add additional styles for header, nav, sections, buttons, etc. */
+/* Basic reset and font styles */
+body, h1, h2, h3, p, ul, li, nav, section, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Header and navigation styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #444;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Section styles */
+section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+#advanced-css-content, #assignment-content {
+    background-color: #fff;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+ul li {
+    background-color: #f9f9f9;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-left: 5px solid #3498db;
+    transition: all 0.3s ease;
+}
+
+ul li:hover {
+    background-color: #f1f1f1;
+    border-left-color: #2c3e50;
+}
+
+/* Button styles */
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+    nav a {
+        margin-bottom: 0.5rem;
+    }
+    section {
+        padding: 2rem 1rem;
+    }
+    #advanced-css-content, #assignment-content {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+}
+/* Basic reset, body and layout styles */
+
+.editor-container {
+    margin-bottom: 2em;
+}
+
+.code-input {
+    width: 100%;
+    height: 150px; /* Adjust as needed */
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.code-output {
+    border: 1px solid #ccc;
+    padding: 1em;
+    background-color: #fff;
+    min-height: 100px; /* Adjust as needed */
+    width: 100%;
+}
+
+/* Add additional styles as needed */

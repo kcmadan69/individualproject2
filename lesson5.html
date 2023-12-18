@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 5: Integrating Media Queries for Mobile Responsiveness</title>
+    <link href="responsive.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="media-queries-intro">
+            <h2>Integrating Media Queries for Mobile Responsiveness</h2>
+            <br>
+            <p>In this lesson, we'll explore how to use media queries to create designs that adapt to various screen sizes and orientations.</p>
+            <div class="editor-container">
+                <textarea class="code-input" id="media-query-code" rows="10" cols="30">
+/* Example media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    body {
+        background-color: lightpink;
+    }
+}
+
+/* Example media query for screens larger than 600px */
+@media (min-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+                </textarea>
+                <button onclick="runCode('media-query-code', 'media-query-output')">Run Media Query Code</button>
+                <div id="media-query-output" class="code-output"></div>
+            </div>
+        </section>
+    </main>
+    <section id="next-section">
+        <button onclick="navigatelesson('Previous')">Previous Lesson</button>
+        <button onclick="navigatelesson('Next')">Go to home</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Interactive Learning Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="responsive.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 4: Introduction to JavaScript</title>
+    <link href="intro-to-js.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="homepage.html">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="javascript-intro">
+            <h2>Introduction to JavaScript</h2>
+            <br>
+            <p>Welcome to the basics of JavaScript! In this lesson, you'll learn about variables, functions, and how to interact with the HTML of a webpage.</p>
+        </section>
+
+        <!-- JavaScript Variables Example Section -->
+        <section id="js-variables-example">
+            <h3>JavaScript Variables Example</h3>
+            <p>Learn how to declare and use variables in JavaScript.</p>
+            <div class="editor-container">
+                <textarea class="code-input" id="js-variables-code" rows="10" cols="30">
+// JavaScript Variables Example
+// Declare a variable named 'greeting' and assign a string to it
+var greeting = "Hello, World!";
+// Display the value of 'greeting' in the console
+console.log(greeting);
+                </textarea>
+                <button onclick="runJavaScript('js-variables-code', 'js-variables-output')">Run JavaScript Code</button>
+                <div id="js-variables-output" class="code-output"></div>
+            </div>
+        </section>
+
+        <!-- JavaScript Functions Example Section -->
+        <section id="js-functions-example">
+            <h3>JavaScript Functions Example</h3>
+            <p>Understand how to define and call functions in JavaScript.</p>
+            <div class="editor-container">
+                <textarea class="code-input" id="js-functions-code" rows="10" cols="30">
+// JavaScript Functions Example
+// Define a function named 'greet' that takes a name and logs a greeting
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+// Call the function 'greet' and display the result in the console
+console.log(greet("Alice"));
+                </textarea>
+                <button onclick="runJavaScript('js-functions-code', 'js-functions-output')">Run JavaScript Code</button>
+                <div id="js-functions-output" class="code-output"></div>
+            </div>
+        </section>
+
+        <!-- Add more sections for other JavaScript topics as needed -->
+
+    </main>
+    <section id="next-section">
+        <button onclick="navigatelesson('Previous')">Previous Lesson</button>
+        <button onclick="navigatelesson('Next')">Next Lesson</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Interactive Learning Platform. All rights reserved.</p>
+    </footer>
+
+    <script src="intro-to-js.js"></script>
+
+</body>
+</html>
